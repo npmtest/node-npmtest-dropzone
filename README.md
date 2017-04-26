@@ -1,6 +1,6 @@
 # npmtest-dropzone
 
-#### test coverage for  [dropzone (v4.3.0)](http://www.dropzonejs.com)  [![npm package](https://img.shields.io/npm/v/npmtest-dropzone.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-dropzone) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-dropzone.svg)](https://travis-ci.org/npmtest/node-npmtest-dropzone)
+#### basic test coverage for  [dropzone (v4.3.0)](http://www.dropzonejs.com)  [![npm package](https://img.shields.io/npm/v/npmtest-dropzone.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-dropzone) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-dropzone.svg)](https://travis-ci.org/npmtest/node-npmtest-dropzone)
 
 #### Handles drag and drop of files for you.
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-dropzone/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-dropzone/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-dropzone/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-dropzone/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-dropzone/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-dropzone/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-dropzone/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-dropzone/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-dropzone/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-dropzone/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-dropzone/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-dropzone/build/coverage.html/index.html)
 
@@ -92,7 +92,8 @@
     "scripts": {
         "test": "./test.sh"
     },
-    "version": "4.3.0"
+    "version": "4.3.0",
+    "bin": {}
 }
 ```
 
